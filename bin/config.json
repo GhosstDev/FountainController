@@ -9,7 +9,7 @@
     "lights_switch": 6,
     "propane_switch": 13,
     "propane_key": 19
-  }
+  },
   
   "express": {
     "port": 3001
