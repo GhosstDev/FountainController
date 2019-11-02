@@ -1,3 +1,17 @@
 {
-
+  "gpio": {
+    "power_led": 12,
+    "water_led": 16,
+    "lights_led": 20,
+    "propane_led": 21,
+    
+    "water_switch": 5,
+    "lights_switch": 6,
+    "propane_switch": 13,
+    "propane_key": 19
+  }
+  
+  "express": {
+    "port": 3001
+  }
 }
