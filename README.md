@@ -17,6 +17,8 @@ sudo apt-get install curl
 curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
 sudo apt-get install nodejs -y
 sudo apt-get install wiringpi -y
+sudo apt-get install hostapd -y
+sudo apt-get install dnsmasq -y
 ```
 
 #### Downloading the Repository
@@ -65,3 +67,5 @@ Required Packages
 - NPM
 - NodeJS
 - WiringPi
+- hostapd
+- dnsmasq
