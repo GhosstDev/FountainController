@@ -1,0 +1,20 @@
+{
+  "name": "fountain-controller",
+  "version": "0.1",
+  "author": "GhostDev <ghost@darkeyes.io>",
+  "description": "A NodeJS system for setting up a web application as the main control panel. It will also be used as the main controller for the hardwired inputs"
+  "main": "index.js",
+  "scripts": {
+    "setup-fountain": "./scripts/setup-fountain.sh && exit 0",
+    "test": "node run verify.js && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GhostlyCoding/FountainController.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GhostlyCoding/FountainController/issues"
+  }
+}
