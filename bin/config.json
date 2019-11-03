@@ -1,17 +1,54 @@
 {
-  "gpio": {
-    "power_led": 12,
-    "water_led": 16,
-    "lights_led": 20,
-    "propane_led": 21,
-    
-    "water_switch": 5,
-    "lights_switch": 6,
-    "propane_switch": 13,
-    "propane_key": 19
-  },
-  
-  "express": {
-    "port": 3001
-  }
+    "gpio": {
+        "power_led": 12,
+        "water_led": 16,
+        "lights_led": 20,
+        "propane_led": 21,
+        "water_switch": 5,
+        "lights_switch": 6,
+        "propane_switch": 13,
+        "water_control": 23,
+        "propane_control": 24,
+        "lights_control": 25,
+        "lights_data": 19
+    },
+    "gpio_readout_cells": {
+        "power5v":         "\\x1b[91m Power 5v       \\x1b[0m",
+        "power33v":        "\\x1b[91m Power 3.3v     \\x1b[0m",
+        "gnd":             "\\x1b[96m Ground         \\x1b[0m",
+        "dnc":             "\\x1b[30m\\x1b[47m Do Not Connect \\x1b[0m",
+        "power_led":       "\\x1b[95m Power LED      \\x1b[0m",
+        "water_led":       "\\x1b[95m Water LED      \\x1b[0m",
+        "water_switch":    "\\x1b[95m Water Switch   \\x1b[0m",
+        "water_control":   "\\x1b[95m Pump Relay     \\x1b[0m",
+        "lights_led":      "\\x1b[95m Lights LED     \\x1b[0m",
+        "lights_switch":   "\\x1b[95m Lights Switch  \\x1b[0m",
+        "lights_control":  "\\x1b[95m Lights Relay   \\x1b[0m",
+        "lights_data":     "\\x1b[95m Lights Data    \\x1b[0m",
+        "propane_led":     "\\x1b[95m Propane LED    \\x1b[0m",
+        "propane_switch":  "\\x1b[95m Propane Switch \\x1b[0m",
+        "propane_control": "\\x1b[95m Propane Relay  \\x1b[0m",
+        "blank":           "                "
+    },
+    "gpio_mono_cells": {
+        "power5v":         " Power 5v       ",
+        "power33v":        " Power 3.3v     ",
+        "gnd":             " Ground         ",
+        "dnc":             " Do Not Connect ",
+        "power_led":       " Power LED      ",
+        "water_led":       " Water LED      ",
+        "water_switch":    " Water Switch   ",
+        "water_control":   " Pump Relay     ",
+        "lights_led":      " Lights LED     ",
+        "lights_switch":   " Lights Switch  ",
+        "lights_control":  " Lights Relay   ",
+        "lights_data":     " Lights Data    ",
+        "propane_led":     " Propane LED    ",
+        "propane_switch":  " Propane Switch ",
+        "propane_control": " Propane Relay  ",
+        "blank":           "                "
+    },
+    "express": {
+        "port": 80
+    }
 }

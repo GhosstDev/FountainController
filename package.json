@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "setup-fountain": "./scripts/setup-fountain.sh && exit 0",
-    "test": "node run verify.js && exit 0"
+    "pinout": "node start scripts/gpio-pinout.js && exit 0",
+    "test": "node start verify.js && exit 0"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
     "url": "https://github.com/GhostlyCoding/FountainController/issues"
   },
   "dependencies": {
-    "onoff": "*",
-    "express": "*"
+    "express": "^4.17.1",
+    "onoff": "^5.0.0"
   }
 }
